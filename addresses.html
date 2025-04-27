@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vacation Spot</title>
+  <link rel="stylesheet" href="./styles/addresses.css">
+  <link rel="website icon" type="png" href="assets/images/address_book.png">
+  <script src="./script/addresses.js">defer</script>
+</head>
+<body>
+  <h1>My Travel Log</h1>
+  <form id="destination-form">
+    <input type="text" id="location" placeholder="Location" required>
+    <input type="text" id="landmarks" placeholder="Landmarks (comma separated)" required>
+    <input type="text" id="timeOfYear" placeholder="Time of Year" required>
+    <textarea id="notes" placeholder="Notes"></textarea>
+    <button type="submit">Add Destination</button>
+  </form>
+  <ul id="destination-list"></ul>
+  <div id="destination-details"></div>
+  <footer>
+    <p>&copy; 2025 Address Book. All rights reserved.</p>
+  </footer>
+</body>
+
+
+</html>
